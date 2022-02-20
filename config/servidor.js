@@ -5,10 +5,12 @@ const express = require("express")
 const run_express = express()
 
 /*definindo porta padrão */
-const porta = 7777
+const porta = process.env.PORT || 7777
 
 /*permindo acesso aos arquivos de leitura*/
 run_express.use(express.static("./assets/"))
+
+run_express.set('view engine', 'ejs')
 
 /*exportando variavéis*/
 module.exports = {run_express,porta}
