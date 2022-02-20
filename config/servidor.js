@@ -2,7 +2,7 @@
 const express = require("express")
 
 /*Exeucutando o Express framework */
-const run_express = express
+const run_express = express()
 
 /*definindo porta padrão */
 const porta = 7777
