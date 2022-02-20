@@ -1,3 +1,7 @@
-web: npm start
+web:node server.js
+
+web:node habdig7.js
+
+web:npm start
 
 
