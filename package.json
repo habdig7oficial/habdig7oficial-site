@@ -2,7 +2,7 @@
   "name": "habdig7oficial-site",
   "version": "0.0.1",
   "description": "minha página pessoal para fazer coisas incríveis ",
-  "main": "index.js",
+  "main": "habdig7.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
