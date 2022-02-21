@@ -4,7 +4,8 @@
   "description": "minha página pessoal para fazer coisas incríveis ",
   "main": "habdig7.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
